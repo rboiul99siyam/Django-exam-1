@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+{%load static %}
+{% block content %}
+
+<div class="row  container m-auto mt-5 d-flex justify-content-around                align-items-center gap-5">
+    <div class="col-sm-12 col-lg-5 ms-5 col-md-5 ">
+        <h1>GoRiBer REsTureNt</h1>
+        <p>A hotel is a commercial establishment that provides lodging, meals, and other services to
+            guests, travelers, and tourists. Hotels can range from small family-run businesses to large international
+            chains. Most hotels list a variety of services, such as room service, laundry, and concierge.</p>
+        <button class="btn btn-success"><a class="text-decoration-none text-light fs-5" href="#">About</a></button>
+    </div>
+    <div class="col-sm-12 col-lg-5 ms-5 col-md-5">
+        <img style="width: 80%;" class="roket" src="{% static 'p.png' %}" alt="rocket">
+        <h1 style="font-size: 40px;" class="text-primary roket text-center ">WeLcOmE <span
+                class="text-success">GoRiBer</span> <span class="text-warning">REsTureNt</span></h1>
+    </div>
+</div>
+
+
+{% endblock %}
